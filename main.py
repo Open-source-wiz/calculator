@@ -21,3 +21,6 @@ def test_multiply():
 
 def test_sub():
     assert sub(6,2) == 4
+
+def test_zero():
+    assert divide(6,0)
